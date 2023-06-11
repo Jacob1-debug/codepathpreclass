@@ -54,4 +54,6 @@ for achieving their fitness goals. The app will also integrate with popular heal
 #GIF
 [![codepath_submis (1)](https://github.com/Jacob1-debug/codepathpreclass/assets/70254498/5c63a064-048b-4ce7-b56d-a2fa4f40d3b2)](https://drive.google.com/file/d/1giL4L7mgKbLHMQSAyTqYpvD28PqvGGNg/view?usp=drive_link)
 
+link to GIF;
+https://drive.google.com/file/d/1giL4L7mgKbLHMQSAyTqYpvD28PqvGGNg/view?usp=drive_link
 
