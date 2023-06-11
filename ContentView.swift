@@ -2,36 +2,42 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var backgroundColor = Color.white
-    
+    @State private var buttonName = "Change Color"
+
     var body: some View {
-        VStack {
-            Text("Name: Jacob Rotich")
-                .padding()
-            Text("University: Minerva University")
-                .padding()
-            Text("Role: Math Instructor")
-                .padding()
-            
-            Spacer()
-            
-            Button(action: {
-                backgroundColor = generateRandomColor()
-            }) {
-                Text("Change Color")
-                    .foregroundColor(.white)
+        ZStack {
+            backgroundColor.edgesIgnoringSafeArea(.all) // Set the background color to cover the entire screen
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
                     .padding()
-                    .background(Color.blue)
-                    .cornerRadius(10)
+
+                Label("Jacob Rotich", systemImage: "person.fill")
+                Label("Minerva University", systemImage: "university")
+                Label("Math Instructor", systemImage: "briefcase.fill")
+
+                Button(action: {
+                    backgroundColor = generateRandomColor()
+                }) {
+                    Text(buttonName)
+                        .foregroundColor(.white)
+                        .padding()
+                        .background(Color.blue)
+                        .cornerRadius(10)
+                }
+                .padding()
             }
-            .padding()
         }
-        .background(backgroundColor)
-        .edgesIgnoringSafeArea(.all)
+        .cornerRadius(10)
     }
-    
+
     func generateRandomColor() -> Color {
-        let colors: [Color] = [.red, .green, .blue]
-        return colors.randomElement() ?? .white
+        let red = Double.random(in: 0...1)
+        let green = Double.random(in: 0...1)
+        let blue = Double.random(in: 0...1)
+        return Color(red: red, green: green, blue: blue)
     }
 }
 
