@@ -50,3 +50,7 @@ calories burned, and sleep patterns. The app will have a database of various exe
 create customized workout plans based on their goals and preferences. Additionally, it will provide real-time workout guidance with a
 udio cues and video demonstrations. Users can track their progress, set reminders for workouts, and receive personalized recommendations 
 for achieving their fitness goals. The app will also integrate with popular health and fitness apps, allowing seamless data synchronization.
+
+#GIF
+![codepath_submis](https://github.com/Jacob1-debug/codepathpreclass/assets/70254498/7e6cafe6-6f19-4fdb-8d34-676c48488715)
+
