@@ -52,5 +52,6 @@ udio cues and video demonstrations. Users can track their progress, set reminder
 for achieving their fitness goals. The app will also integrate with popular health and fitness apps, allowing seamless data synchronization.
 
 #GIF
-![codepath_submis](https://github.com/Jacob1-debug/codepathpreclass/assets/70254498/7e6cafe6-6f19-4fdb-8d34-676c48488715)
+![codepath_submis (1)](https://github.com/Jacob1-debug/codepathpreclass/assets/70254498/5c63a064-048b-4ce7-b56d-a2fa4f40d3b2)
+
 
